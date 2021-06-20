@@ -191,6 +191,7 @@ body {
 
 .trend-card-content {
     border: 3px solid #847b3e;
+    width: 100%;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 15px;
