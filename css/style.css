@@ -238,10 +238,13 @@ body {
 
 .image-main {
     margin-right: 30px;
+    width: 381px;
+    height: 294px;
 }
 
 .img {
-    width: 380px;
+    width: 381px;
+    height: 294px;
 }
 
 .tag-menu {
@@ -260,8 +263,8 @@ body {
     padding: 0;
 }
 
-.tag-list:nth-child(n+2) {
-    margin-left: 20px;
+.tag-list {
+    margin-right: 20px;
 }
 
 .tag-link {
@@ -331,6 +334,7 @@ body {
 
 .img-aside {
     width: 70px;
+    height: 70px;
 }
 
 .info-aside {
@@ -456,13 +460,16 @@ body {
     border: 3px solid #eeeeee;
 }
 
-.themes {
-    line-height: 47px;
-}
-
 .theme {
     margin-left: 5px;
     list-style-type: none;
+}
+
+.all-themes:after {
+    content: "";
+    display: block;
+    margin: 12px 0 16px;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .word {
@@ -480,6 +487,7 @@ body {
     color: #b59f5b;
     vertical-align: top;
     padding-left: 5px;
+    text-decoration: none;
 }
 
 .handmade-block {
@@ -651,6 +659,7 @@ body {
 .copyright-information {
     font-family: Open-Sans;
     font-weight: bold;
+    text-decoration: none;
     font-size: 12px;
     color: #999999;
 }
